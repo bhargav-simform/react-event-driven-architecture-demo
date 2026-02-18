@@ -1,0 +1,110 @@
+.container {
+  padding: var(--spacing-lg);
+  background-color: var(--bg-secondary);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-top: 0;
+  margin-bottom: var(--spacing-md);
+  color: var(--text-primary);
+  font-size: var(--font-size-lg);
+}
+
+.contextBadge {
+  padding: 4px 8px;
+  border-radius: var(--border-radius-sm);
+  font-size: var(--font-size-xs);
+}
+
+.contextBadge.iframe {
+  background-color: var(--color-success);
+}
+
+.contextBadge.standalone {
+  background-color: var(--color-warning);
+}
+
+.counterDisplay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-md);
+  background-color: var(--bg-info);
+  border-radius: var(--border-radius-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.label {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.value {
+  font-size: var(--font-size-xl);
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+.logContainer {
+  height: 200px;
+  overflow-y: auto;
+  background-color: var(--bg-log);
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius-sm);
+  font-family: var(--font-mono);
+  font-size: var(--font-size-sm);
+  border: 1px solid var(--border-color);
+}
+
+.logContainer::-webkit-scrollbar {
+  width: 6px;
+}
+
+.logContainer::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+  border-radius: var(--border-radius-sm);
+}
+
+.logContainer::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: var(--border-radius-sm);
+}
+
+.logContainer::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary-hover);
+}
+
+.emptyState {
+  color: var(--text-muted);
+  text-align: center;
+  padding: var(--spacing-md);
+}
+
+.logEntry {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-xs);
+  padding: var(--spacing-xs);
+  border-radius: var(--border-radius-sm);
+  transition: background-color 0.2s ease;
+}
+
+.logEntry:hover {
+  background-color: var(--bg-hover);
+}
+
+.timestamp {
+  color: var(--text-muted);
+  flex-shrink: 0;
+  min-width: 70px;
+}
+
+.message {
+  color: var(--color-info);
+  word-break: break-word;
+}

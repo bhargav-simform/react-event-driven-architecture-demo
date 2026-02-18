@@ -1,0 +1,70 @@
+:root {
+  /* Colors - Light Theme */
+  --color-primary: #4caf50;
+  --color-primary-hover: #45a049;
+  --color-info: #2196f3;
+  --color-info-hover: #0b7dda;
+  --color-success: #4caf50;
+  --color-success-hover: #45a049;
+  --color-warning: #ff9800;
+  --color-error: #f44336;
+  --color-error-bg: #ffebee;
+
+  /* Background */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f5f5;
+  --bg-log: #fafafa;
+  --bg-info: #e3f2fd;
+  --bg-hover: rgba(0, 0, 0, 0.04);
+
+  /* Text */
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --text-muted: #999999;
+
+  /* Borders */
+  --border-color: #e0e0e0;
+  --border-radius: 8px;
+  --border-radius-sm: 4px;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Typography */
+  --font-size-xs: 11px;
+  --font-size-sm: 12px;
+  --font-size-md: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 32px;
+
+  --font-mono: 'Consolas', 'Monaco', 'Courier New', monospace;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Theme */
+[data-theme='dark'] {
+  --bg-primary: #1e1e1e;
+  --bg-secondary: #2a2a2a;
+  --bg-log: #1a1a1a;
+  --bg-info: #1a237e;
+  --bg-hover: rgba(255, 255, 255, 0.04);
+
+  --text-primary: #f5f5f5;
+  --text-secondary: #b0b0b0;
+  --text-muted: #808080;
+
+  --border-color: #404040;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
